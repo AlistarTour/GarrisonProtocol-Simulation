@@ -1,0 +1,76 @@
+{
+  "checkedAtUtc": "2026-10-08T17:15:21.023Z",
+  "endpoint": "http://103.236.57.91:3001",
+  "checks": [
+    {
+      "name": "public HTTP health",
+      "passed": true
+    },
+    {
+      "name": "two independent WebSocket sessions",
+      "passed": true,
+      "elapsedMs": 292
+    },
+    {
+      "name": "application ping/pong",
+      "passed": true,
+      "roundTripMs": 98
+    },
+    {
+      "name": "create/join room and synchronized seats",
+      "passed": true
+    },
+    {
+      "name": "ready/start match and public/private state synchronization",
+      "passed": true
+    },
+    {
+      "name": "abrupt disconnect and automatic in-match session resumption",
+      "passed": true
+    },
+    {
+      "name": "both players advance to strategy selection",
+      "passed": true
+    }
+  ],
+  "healthBefore": {
+    "ok": true,
+    "version": 1,
+    "app": "0.1.1",
+    "uptimeSec": 1551,
+    "sockets": 0,
+    "sessions": 0,
+    "rooms": 0,
+    "matches": 0,
+    "humans": 0,
+    "bots": 0
+  },
+  "testRoomCode": "ERFX",
+  "stageId": "act1autochess_m04",
+  "healthDuring": {
+    "ok": true,
+    "version": 1,
+    "app": "0.1.1",
+    "uptimeSec": 1552,
+    "sockets": 2,
+    "sessions": 2,
+    "rooms": 1,
+    "matches": 1,
+    "humans": 2,
+    "bots": 0
+  },
+  "passed": true,
+  "healthAfter": {
+    "ok": true,
+    "version": 1,
+    "app": "0.1.1",
+    "uptimeSec": 1553,
+    "sockets": 0,
+    "sessions": 2,
+    "rooms": 0,
+    "matches": 0,
+    "humans": 0,
+    "bots": 0
+  },
+  "testRoomsAndMatchesCleaned": true
+}

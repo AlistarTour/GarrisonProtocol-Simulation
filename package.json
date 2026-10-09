@@ -1,0 +1,31 @@
+{
+  "name": "stronghold-protocol-covenant",
+  "version": "0.1.1",
+  "private": true,
+  "description": "明日方舟「卫戍协议：盟约」非官方同人联机网页复刻",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "main": "electron-main.cjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test tests/*.test.mjs",
+    "desktop": "node scripts/package-win.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "htm": "^3.1.1",
+    "pixi-spine": "^4.0.6",
+    "pixi.js": "^7.4.2",
+    "preact": "^10.29.8",
+    "three": "^0.186.1",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^44.7.0",
+    "puppeteer-core": "^25.12.0"
+  }
+}

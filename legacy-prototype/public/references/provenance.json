@@ -1,0 +1,46 @@
+[
+  {
+    "file": "home-reference.png",
+    "sourcePage": "https://www.taptap.cn/moment/738117540928029245?group_id=53933",
+    "original": "https://img2-tc.tapimg.com/moment/etag/lupQmyiZ6bn7eP2axB3_h2sQoxgr_20251113193435.jpg",
+    "frameTime": null,
+    "bytes": 505087,
+    "sha256": "bbf829b87fcc131596109579e6f0acb2716d9dae59bd25f01da0f773d46a35d3",
+    "publisher": "明日方舟官方账号",
+    "usage": "只用于界面对照，不能当作可游玩地图或按钮",
+    "extraction": "官方长图活动主页区域 crop(90,1160,910,1620)，原长图保存在 research/video/official-guide-original.jpg"
+  },
+  {
+    "file": "shop-reference.jpg",
+    "sourcePage": "https://www.bilibili.com/video/BV1oHyrBsEZU/",
+    "original": "research/video/live-2505.jpg",
+    "frameTime": 2505,
+    "bytes": 209697,
+    "sha256": "542be0119a42ec3c9f3752c3e8cb754cbbb31ca034113185266a844d04b85355",
+    "publisher": "明日方舟官方账号",
+    "usage": "只用于界面对照，不能当作可游玩地图或按钮",
+    "extraction": "公开官方直播原始视频帧，未改变画面内容"
+  },
+  {
+    "file": "unit-reference.jpg",
+    "sourcePage": "https://www.bilibili.com/video/BV1oHyrBsEZU/",
+    "original": "research/video/live-2520.jpg",
+    "frameTime": 2520,
+    "bytes": 154324,
+    "sha256": "6fb7781bd16fffbf7ee3b23a79aaec1d300f99f0782265059820c46f7197594b",
+    "publisher": "明日方舟官方账号",
+    "usage": "只用于界面对照，不能当作可游玩地图或按钮",
+    "extraction": "公开官方直播原始视频帧，未改变画面内容"
+  },
+  {
+    "file": "combat-reference.jpg",
+    "sourcePage": "https://www.bilibili.com/video/BV1oHyrBsEZU/",
+    "original": "research/video/live-2560.jpg",
+    "frameTime": 2560,
+    "bytes": 191770,
+    "sha256": "5c1ccb86e0274db1cf10f9f096c993e15df65103fe963ddccd82908d1d65f8d1",
+    "publisher": "明日方舟官方账号",
+    "usage": "只用于界面对照，不能当作可游玩地图或按钮",
+    "extraction": "公开官方直播原始视频帧，未改变画面内容"
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-08",
+  "port": 3001,
+  "version": "0.1.1",
+  "syntaxChecks": "passed",
+  "tests": "2/2 passed",
+  "localHttpHealth": "passed",
+  "twoClientWebSocketRoom": "passed",
+  "packagedElectronNodeRuntime": "passed: health and 5 HTTP routes",
+  "bundleSourceHashes": "matched",
+  "productionDependencies": "npm ci --omit=dev passed, 77 packages, ws import passed",
+  "cloudZipEntries": 5791,
+  "repairZipEntries": 4526,
+  "exeServerUrl": "http://103.236.57.91:3001/",
+  "cloudDeployment": "deployed and publicly verified: repair applied to C:/Games/covenant-server; BaoTa service running on 0.0.0.0:3001; public HTTP, resources, two-client match sync and automatic reconnect passed",
+  "remoteDeploymentCheckedOn": "2026-10-09",
+  "remoteProjectName": "卫戍协议",
+  "remoteServicePidAtStart": 13892,
+  "remoteHttpHealth": "passed: user screenshot of http://127.0.0.1:3001/healthz shows ok=true, app=0.1.1, uptimeSec=335",
+  "remoteTransferCheckedOn": "2026-10-09",
+  "exeServerConfig": "confirmed: EXE sibling config targets http://103.236.57.91:3001/",
+  "publicHealth": "passed: direct HTTP 200, ok=true, app=0.1.1",
+  "artifacts": [
+    {
+      "path": "C:\\Users\\ORANGEWIND\\Desktop\\卫戍协议\\dist\\卫戍协议-云服务器部署包.zip",
+      "bytes": 262793044,
+      "sha256": "C6C689A529CBD435AE92E9AEBE8BFB6FF7CAFEA36621B2EADD63B956EEF0D010"
+    },
+    {
+      "path": "C:\\Users\\ORANGEWIND\\Desktop\\卫戍协议\\dist\\卫戍协议-3001修复包.zip",
+      "bytes": 15486124,
+      "sha256": "6E174B096D6F828DBE211294F94A922AE365033769FDE1E2E03AC9CA1803C0C6"
+    },
+    {
+      "path": "C:\\Users\\ORANGEWIND\\Desktop\\卫戍协议\\dist\\卫戍协议-win32-x64\\卫戍协议.exe",
+      "bytes": 246302208,
+      "sha256": "AFD13D6615E5F29DCEF64E67079E8FF51B434965E2965BB13DBEBEA114289EB8"
+    }
+  ],
+  "publicHealthProbes": [
+    {
+      "url": "http://103.236.57.91:3001/healthz",
+      "testedAtUtc": "2026-10-08T11:42:29.1315431Z",
+      "reachable": false,
+      "httpStatus": null,
+      "health": null,
+      "error": "A task was canceled."
+    },
+    {
+      "url": "http://103.236.57.91:3001/healthz",
+      "testedAtUtc": "2026-10-08T11:45:00.3025089Z",
+      "reachable": false,
+      "httpStatus": null,
+      "health": null,
+      "error": "A task was canceled."
+    }
+  ],
+  "publicHealthTestedAtUtc": "2026-10-08T17:15:21.023Z",
+  "publicValidationDateLocal": "2026-10-09",
+  "previousFailedPublicValidation": {
+    "tcp": "failed: direct TCP connect to 103.236.57.91:3001 timed out after 5 seconds",
+    "tcpTestedAtUtc": "2026-10-08T17:04:36.7180113Z",
+    "http": "failed: direct /healthz request with proxy disabled timed out after 8 seconds",
+    "webSocket": "failed: ws://103.236.57.91:3001/ws opening handshake timed out after 8016 ms",
+    "independentProbe": "failed: curl --noproxy '*' connect timed out after 8.014 seconds, curl error 28, HTTP 000",
+    "resources": "not tested: connection unavailable",
+    "twoClientPublicRoom": "not tested: connection unavailable",
+    "exeConfig": "confirmed: serverUrl=http://103.236.57.91:3001/ and localPort=3001",
+    "blockingLayer": "public TCP reachability; exact firewall or network layer not yet established"
+  },
+  "latestPublicHealthProbe": {
+    "url": "http://103.236.57.91:3001/healthz",
+    "reachable": true,
+    "timeoutSeconds": 8,
+    "httpStatus": 200,
+    "health": { "ok": true, "version": 1, "app": "0.1.1" },
+    "error": null
+  },
+  "finalPublicNetworkValidation": {
+    "checkedAtUtc": "2026-10-08T17:15:21.023Z",
+    "passed": true,
+    "report": "deployment/公网联机验证结果.json",
+    "twoIndependentSessions": "passed",
+    "pingRoundTripMs": 98,
+    "createAndJoinRoom": "passed",
+    "readyAndStartMatch": "passed",
+    "publicAndPrivateStateSync": "passed",
+    "automaticReconnectSameIdentity": "passed",
+    "advanceToStrategySelection": "passed",
+    "testRoomsAndMatchesCleaned": true,
+    "afterCleanup": { "sockets": 0, "rooms": 0, "matches": 0, "humans": 0, "bots": 0 },
+    "scope": "public protocol and deployment smoke test; complete battle playthrough and visual fidelity not exercised"
+  },
+  "publicResourceValidation": {
+    "checkedAtLocal": "2026-10-09 01:10:52 Asia/Shanghai",
+    "checked": 28,
+    "http200": 28,
+    "localSha256Matched": 28,
+    "coverage": "homepage, main/net/assets/render JS, shared protocol/constants, config/stages/assets/local-assets, all 7 vendor files, board texture and tiles, operator and enemy icon/skeleton/atlas/texture",
+    "samples": {
+      "homepageSha256": "ff77ef3ebd9b90058cf3e397ef1528af50effc1f1cb11c8ee923da44df714ddc",
+      "mainJsSha256": "afb55cd13cf692b93dd8f2a335dabbb05dfacb732f5e09bc2ecac8b48932ca4d",
+      "protocolJsSha256": "81b31a3345de11703b27eb1d0175bedbe00c14cac0804627d47e346e08fba86e",
+      "boardTextureSha256": "843c421961b16413e0d900e3f603ee86224cac594dafe0930df7c062195168c1"
+    }
+  }
+}

@@ -1,0 +1,1487 @@
+{
+  "operators": [
+    {
+      "id": "op-0",
+      "name": "隐现",
+      "tier": 1,
+      "role": "狙击",
+      "bonds": [
+        "拉特兰"
+      ],
+      "image": "/assets/op-0.png",
+      "hp": 1050,
+      "atk": 360,
+      "def": 75,
+      "interval": 0.95,
+      "range": 3.2,
+      "block": 0,
+      "ground": false,
+      "sourcePage": "https://prts.wiki/w/%E9%9A%90%E7%8E%B0",
+      "portrait": "/assets/op-0-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_498_inside/meta.json",
+      "model": {
+        "skel": "/assets/models/op-0/char_498_inside.skel",
+        "atlas": "/assets/models/op-0/char_498_inside.atlas"
+      }
+    },
+    {
+      "id": "op-1",
+      "name": "讯使",
+      "tier": 1,
+      "role": "先锋",
+      "bonds": [
+        "谢拉格",
+        "不屈"
+      ],
+      "image": "/assets/op-1.png",
+      "hp": 1550,
+      "atk": 330,
+      "def": 160,
+      "interval": 1.05,
+      "range": 1.3,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E8%AE%AF%E4%BD%BF",
+      "portrait": "/assets/op-1-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_198_blackd/meta.json",
+      "model": {
+        "skel": "/assets/models/op-1/char_198_blackd.skel",
+        "atlas": "/assets/models/op-1/char_198_blackd.atlas"
+      }
+    },
+    {
+      "id": "op-2",
+      "name": "惊蛰",
+      "tier": 1,
+      "role": "术师",
+      "bonds": [
+        "炎"
+      ],
+      "image": "/assets/op-2.png",
+      "hp": 1150,
+      "atk": 440,
+      "def": 80,
+      "interval": 1.45,
+      "range": 2.9,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "sourcePage": "https://prts.wiki/w/%E6%83%8A%E8%9B%B0",
+      "portrait": "/assets/op-2-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_306_leizi/meta.json",
+      "model": {
+        "skel": "/assets/models/op-2/char_306_leizi.skel",
+        "atlas": "/assets/models/op-2/char_306_leizi.atlas"
+      }
+    },
+    {
+      "id": "op-3",
+      "name": "幽灵鲨",
+      "tier": 1,
+      "role": "近卫",
+      "bonds": [
+        "阿戈尔"
+      ],
+      "image": "/assets/op-3.png",
+      "hp": 1950,
+      "atk": 450,
+      "def": 190,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E5%B9%BD%E7%81%B5%E9%B2%A8",
+      "portrait": "/assets/op-3-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_143_ghost/meta.json",
+      "model": {
+        "skel": "/assets/models/op-3/char_143_ghost.skel",
+        "atlas": "/assets/models/op-3/char_143_ghost.atlas"
+      }
+    },
+    {
+      "id": "op-4",
+      "name": "红豆",
+      "tier": 1,
+      "role": "先锋",
+      "bonds": [
+        "不屈"
+      ],
+      "image": "/assets/op-4.png",
+      "hp": 1550,
+      "atk": 330,
+      "def": 160,
+      "interval": 1.05,
+      "range": 1.3,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E7%BA%A2%E8%B1%86",
+      "portrait": "/assets/op-4-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_290_vigna/meta.json",
+      "model": {
+        "skel": "/assets/models/op-4/char_290_vigna.skel",
+        "atlas": "/assets/models/op-4/char_290_vigna.atlas"
+      }
+    },
+    {
+      "id": "op-5",
+      "name": "梅",
+      "tier": 1,
+      "role": "狙击",
+      "bonds": [
+        "维多利亚",
+        "精准"
+      ],
+      "image": "/assets/op-5.png",
+      "hp": 1050,
+      "atk": 360,
+      "def": 75,
+      "interval": 0.95,
+      "range": 3.2,
+      "block": 0,
+      "ground": false,
+      "sourcePage": "https://prts.wiki/w/%E6%A2%85",
+      "portrait": "/assets/op-5-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_133_mm/meta.json",
+      "model": {
+        "skel": "/assets/models/op-5/char_133_mm.skel",
+        "atlas": "/assets/models/op-5/char_133_mm.atlas"
+      }
+    },
+    {
+      "id": "op-6",
+      "name": "拉普兰德",
+      "tier": 1,
+      "role": "近卫",
+      "bonds": [
+        "协防干员"
+      ],
+      "image": "/assets/op-6.png",
+      "hp": 1950,
+      "atk": 450,
+      "def": 190,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E6%8B%89%E6%99%AE%E5%85%B0%E5%BE%B7",
+      "portrait": "/assets/op-6-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_140_whitew/meta.json",
+      "model": {
+        "skel": "/assets/models/op-6/char_140_whitew.skel",
+        "atlas": "/assets/models/op-6/char_140_whitew.atlas"
+      }
+    },
+    {
+      "id": "op-7",
+      "name": "德克萨斯",
+      "tier": 1,
+      "role": "先锋",
+      "bonds": [
+        "迅捷"
+      ],
+      "image": "/assets/op-7.png",
+      "hp": 1550,
+      "atk": 330,
+      "def": 160,
+      "interval": 1.05,
+      "range": 1.3,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E5%BE%B7%E5%85%8B%E8%90%A8%E6%96%AF",
+      "portrait": "/assets/op-7-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_102_texas/meta.json",
+      "model": {
+        "skel": "/assets/models/op-7/char_102_texas.skel",
+        "atlas": "/assets/models/op-7/char_102_texas.atlas"
+      }
+    },
+    {
+      "id": "op-8",
+      "name": "蛇屠箱",
+      "tier": 1,
+      "role": "重装",
+      "bonds": [
+        "坚守"
+      ],
+      "image": "/assets/op-8.png",
+      "hp": 2800,
+      "atk": 260,
+      "def": 410,
+      "interval": 1.4,
+      "range": 1.2,
+      "block": 3,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E8%9B%87%E5%B1%A0%E7%AE%B1",
+      "portrait": "/assets/op-8-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_150_snakek/meta.json",
+      "model": {
+        "skel": "/assets/models/op-8/char_150_snakek.skel",
+        "atlas": "/assets/models/op-8/char_150_snakek.atlas"
+      }
+    },
+    {
+      "id": "op-9",
+      "name": "远山",
+      "tier": 1,
+      "role": "术师",
+      "bonds": [
+        "远见",
+        "奇迹"
+      ],
+      "image": "/assets/op-9.png",
+      "hp": 1150,
+      "atk": 440,
+      "def": 80,
+      "interval": 1.45,
+      "range": 2.9,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "sourcePage": "https://prts.wiki/w/%E8%BF%9C%E5%B1%B1",
+      "portrait": "/assets/op-9-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_109_fmout/meta.json",
+      "model": {
+        "skel": "/assets/models/op-9/char_109_fmout.skel",
+        "atlas": "/assets/models/op-9/char_109_fmout.atlas"
+      }
+    },
+    {
+      "id": "op-10",
+      "name": "狮蝎",
+      "tier": 1,
+      "role": "特种",
+      "bonds": [
+        "萨尔贡",
+        "突袭"
+      ],
+      "image": "/assets/op-10.png",
+      "hp": 1650,
+      "atk": 390,
+      "def": 150,
+      "interval": 1.05,
+      "range": 1.5,
+      "block": 1,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E7%8B%AE%E8%9D%8E",
+      "portrait": "/assets/op-10-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_215_mantic/meta.json",
+      "model": {
+        "skel": "/assets/models/op-10/char_215_mantic.skel",
+        "atlas": "/assets/models/op-10/char_215_mantic.atlas"
+      }
+    },
+    {
+      "id": "op-11",
+      "name": "布丁",
+      "tier": 1,
+      "role": "术师",
+      "bonds": [
+        "灵巧"
+      ],
+      "image": "/assets/op-11.png",
+      "hp": 1150,
+      "atk": 440,
+      "def": 80,
+      "interval": 1.45,
+      "range": 2.9,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "sourcePage": "https://prts.wiki/w/%E5%B8%83%E4%B8%81",
+      "portrait": "/assets/op-11-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4004_pudd/meta.json",
+      "model": {
+        "skel": "/assets/models/op-11/char_4004_pudd.skel",
+        "atlas": "/assets/models/op-11/char_4004_pudd.atlas"
+      }
+    },
+    {
+      "id": "op-12",
+      "name": "送葬人",
+      "tier": 2,
+      "role": "狙击",
+      "bonds": [
+        "拉特兰",
+        "精准"
+      ],
+      "image": "/assets/op-12.png",
+      "hp": 1250,
+      "atk": 428,
+      "def": 89,
+      "interval": 0.95,
+      "range": 3.2,
+      "block": 0,
+      "ground": false,
+      "sourcePage": "https://prts.wiki/w/%E9%80%81%E8%91%AC%E4%BA%BA",
+      "portrait": "/assets/op-12-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_279_excu/meta.json",
+      "model": {
+        "skel": "/assets/models/op-12/char_279_excu.skel",
+        "atlas": "/assets/models/op-12/char_279_excu.atlas"
+      }
+    },
+    {
+      "id": "op-13",
+      "name": "赫默",
+      "tier": 2,
+      "role": "医疗",
+      "bonds": [
+        "远见"
+      ],
+      "image": "/assets/op-13.png",
+      "hp": 1309,
+      "atk": 333,
+      "def": 101,
+      "interval": 1.4,
+      "range": 3.3,
+      "block": 0,
+      "ground": false,
+      "heal": true,
+      "sourcePage": "https://prts.wiki/w/%E8%B5%AB%E9%BB%98",
+      "portrait": "/assets/op-13-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_108_silent/meta.json",
+      "model": {
+        "skel": "/assets/models/op-13/char_108_silent.skel",
+        "atlas": "/assets/models/op-13/char_108_silent.atlas"
+      }
+    },
+    {
+      "id": "op-14",
+      "name": "角峰",
+      "tier": 2,
+      "role": "重装",
+      "bonds": [
+        "谢拉格",
+        "坚守"
+      ],
+      "image": "/assets/op-14.png",
+      "hp": 3332,
+      "atk": 309,
+      "def": 488,
+      "interval": 1.4,
+      "range": 1.2,
+      "block": 3,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E8%A7%92%E5%B3%B0",
+      "portrait": "/assets/op-14-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_199_yak/meta.json",
+      "model": {
+        "skel": "/assets/models/op-14/char_199_yak.skel",
+        "atlas": "/assets/models/op-14/char_199_yak.atlas"
+      }
+    },
+    {
+      "id": "op-15",
+      "name": "万顷",
+      "tier": 2,
+      "role": "先锋",
+      "bonds": [
+        "炎"
+      ],
+      "image": "/assets/op-15.png",
+      "hp": 1845,
+      "atk": 393,
+      "def": 190,
+      "interval": 1.05,
+      "range": 1.3,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E4%B8%87%E9%A1%B7",
+      "portrait": "/assets/op-15-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4119_wanqin/meta.json",
+      "model": {
+        "skel": "/assets/models/op-15/char_4119_wanqin.skel",
+        "atlas": "/assets/models/op-15/char_4119_wanqin.atlas"
+      }
+    },
+    {
+      "id": "op-16",
+      "name": "哈洛德",
+      "tier": 2,
+      "role": "医疗",
+      "bonds": [
+        "维多利亚",
+        "谢拉格"
+      ],
+      "image": "/assets/op-16.png",
+      "hp": 1309,
+      "atk": 333,
+      "def": 101,
+      "interval": 1.4,
+      "range": 3.3,
+      "block": 0,
+      "ground": false,
+      "heal": true,
+      "sourcePage": "https://prts.wiki/w/%E5%93%88%E6%B4%9B%E5%BE%B7",
+      "portrait": "/assets/op-16-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4114_harold/meta.json",
+      "model": {
+        "skel": "/assets/models/op-16/char_4114_harold.skel",
+        "atlas": "/assets/models/op-16/char_4114_harold.atlas"
+      }
+    },
+    {
+      "id": "op-17",
+      "name": "莎草",
+      "tier": 2,
+      "role": "医疗",
+      "bonds": [
+        "萨尔贡"
+      ],
+      "image": "/assets/op-17.png",
+      "hp": 1309,
+      "atk": 333,
+      "def": 101,
+      "interval": 1.4,
+      "range": 3.3,
+      "block": 0,
+      "ground": false,
+      "heal": true,
+      "sourcePage": "https://prts.wiki/w/%E8%8E%8E%E8%8D%89",
+      "portrait": "/assets/op-17-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4139_papyrs/meta.json",
+      "model": {
+        "skel": "/assets/models/op-17/char_4139_papyrs.skel",
+        "atlas": "/assets/models/op-17/char_4139_papyrs.atlas"
+      }
+    },
+    {
+      "id": "op-18",
+      "name": "深巡",
+      "tier": 2,
+      "role": "重装",
+      "bonds": [
+        "阿戈尔"
+      ],
+      "image": "/assets/op-18.png",
+      "hp": 3332,
+      "atk": 309,
+      "def": 488,
+      "interval": 1.4,
+      "range": 1.2,
+      "block": 3,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E6%B7%B1%E5%B7%A1",
+      "portrait": "/assets/op-18-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4137_udflow/meta.json",
+      "model": {
+        "skel": "/assets/models/op-18/char_4137_udflow.skel",
+        "atlas": "/assets/models/op-18/char_4137_udflow.atlas"
+      }
+    },
+    {
+      "id": "op-19",
+      "name": "暴雨",
+      "tier": 2,
+      "role": "重装",
+      "bonds": [
+        "萨尔贡",
+        "坚守"
+      ],
+      "image": "/assets/op-19.png",
+      "hp": 3332,
+      "atk": 309,
+      "def": 488,
+      "interval": 1.4,
+      "range": 1.2,
+      "block": 3,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E6%9A%B4%E9%9B%A8",
+      "portrait": "/assets/op-19-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_304_zebra/meta.json",
+      "model": {
+        "skel": "/assets/models/op-19/char_304_zebra.skel",
+        "atlas": "/assets/models/op-19/char_304_zebra.atlas"
+      }
+    },
+    {
+      "id": "op-20",
+      "name": "洛洛",
+      "tier": 2,
+      "role": "术师",
+      "bonds": [
+        "维多利亚",
+        "灵巧"
+      ],
+      "image": "/assets/op-20.png",
+      "hp": 1369,
+      "atk": 524,
+      "def": 95,
+      "interval": 1.45,
+      "range": 2.9,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "sourcePage": "https://prts.wiki/w/%E6%B4%9B%E6%B4%9B",
+      "portrait": "/assets/op-20-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4040_rockr/meta.json",
+      "model": {
+        "skel": "/assets/models/op-20/char_4040_rockr.skel",
+        "atlas": "/assets/models/op-20/char_4040_rockr.atlas"
+      }
+    },
+    {
+      "id": "op-21",
+      "name": "芳汀",
+      "tier": 2,
+      "role": "近卫",
+      "bonds": [
+        "拉特兰"
+      ],
+      "image": "/assets/op-21.png",
+      "hp": 2321,
+      "atk": 536,
+      "def": 226,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E8%8A%B3%E6%B1%80",
+      "portrait": "/assets/op-21-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_271_spikes/meta.json",
+      "model": {
+        "skel": "/assets/models/op-21/char_271_spikes.skel",
+        "atlas": "/assets/models/op-21/char_271_spikes.atlas"
+      }
+    },
+    {
+      "id": "op-22",
+      "name": "能天使",
+      "tier": 3,
+      "role": "狙击",
+      "bonds": [
+        "拉特兰",
+        "奇迹"
+      ],
+      "image": "/assets/op-22.png",
+      "hp": 1449,
+      "atk": 497,
+      "def": 103,
+      "interval": 0.95,
+      "range": 3.2,
+      "block": 0,
+      "ground": false,
+      "sourcePage": "https://prts.wiki/w/%E8%83%BD%E5%A4%A9%E4%BD%BF",
+      "portrait": "/assets/op-22-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_103_angel/meta.json",
+      "model": {
+        "skel": "/assets/models/op-22/char_103_angel.skel",
+        "atlas": "/assets/models/op-22/char_103_angel.atlas"
+      }
+    },
+    {
+      "id": "op-23",
+      "name": "极光",
+      "tier": 3,
+      "role": "重装",
+      "bonds": [
+        "谢拉格"
+      ],
+      "image": "/assets/op-23.png",
+      "hp": 3864,
+      "atk": 359,
+      "def": 566,
+      "interval": 1.4,
+      "range": 1.2,
+      "block": 3,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E6%9E%81%E5%85%89",
+      "portrait": "/assets/op-23-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_422_aurora/meta.json",
+      "model": {
+        "skel": "/assets/models/op-23/char_422_aurora.skel",
+        "atlas": "/assets/models/op-23/char_422_aurora.atlas"
+      }
+    },
+    {
+      "id": "op-24",
+      "name": "槐琥",
+      "tier": 3,
+      "role": "特种",
+      "bonds": [
+        "炎",
+        "不屈"
+      ],
+      "image": "/assets/op-24.png",
+      "hp": 2277,
+      "atk": 538,
+      "def": 207,
+      "interval": 1.05,
+      "range": 1.5,
+      "block": 1,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E6%A7%90%E7%90%A5",
+      "portrait": "/assets/op-24-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_243_waaifu/meta.json",
+      "model": {
+        "skel": "/assets/models/op-24/char_243_waaifu.skel",
+        "atlas": "/assets/models/op-24/char_243_waaifu.atlas"
+      }
+    },
+    {
+      "id": "op-25",
+      "name": "斯卡蒂",
+      "tier": 3,
+      "role": "近卫",
+      "bonds": [
+        "阿戈尔",
+        "坚守",
+        "突袭"
+      ],
+      "image": "/assets/op-25.png",
+      "hp": 2691,
+      "atk": 621,
+      "def": 262,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E6%96%AF%E5%8D%A1%E8%92%82",
+      "portrait": "/assets/op-25-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_263_skadi/meta.json",
+      "model": {
+        "skel": "/assets/models/op-25/char_263_skadi.skel",
+        "atlas": "/assets/models/op-25/char_263_skadi.atlas"
+      }
+    },
+    {
+      "id": "op-26",
+      "name": "海蒂",
+      "tier": 3,
+      "role": "辅助",
+      "bonds": [
+        "维多利亚",
+        "助力"
+      ],
+      "image": "/assets/op-26.png",
+      "hp": 1656,
+      "atk": 386,
+      "def": 138,
+      "interval": 1.25,
+      "range": 2.8,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "slow": true,
+      "sourcePage": "https://prts.wiki/w/%E6%B5%B7%E8%92%82",
+      "portrait": "/assets/op-26-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4045_heidi/meta.json",
+      "model": {
+        "skel": "/assets/models/op-26/char_4045_heidi.skel",
+        "atlas": "/assets/models/op-26/char_4045_heidi.atlas"
+      }
+    },
+    {
+      "id": "op-27",
+      "name": "安哲拉",
+      "tier": 3,
+      "role": "狙击",
+      "bonds": [
+        "阿戈尔",
+        "精准"
+      ],
+      "image": "/assets/op-27.png",
+      "hp": 1449,
+      "atk": 497,
+      "def": 103,
+      "interval": 0.95,
+      "range": 3.2,
+      "block": 0,
+      "ground": false,
+      "sourcePage": "https://prts.wiki/w/%E5%AE%89%E5%93%B2%E6%8B%89",
+      "portrait": "/assets/op-27-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_218_cuttle/meta.json",
+      "model": {
+        "skel": "/assets/models/op-27/char_218_cuttle.skel",
+        "atlas": "/assets/models/op-27/char_218_cuttle.atlas"
+      }
+    },
+    {
+      "id": "op-28",
+      "name": "耶拉",
+      "tier": 3,
+      "role": "术师",
+      "bonds": [
+        "谢拉格",
+        "远见"
+      ],
+      "image": "/assets/op-28.png",
+      "hp": 1587,
+      "atk": 607,
+      "def": 110,
+      "interval": 1.45,
+      "range": 2.9,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "sourcePage": "https://prts.wiki/w/%E8%80%B6%E6%8B%89",
+      "portrait": "/assets/op-28-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4013_kjera/meta.json",
+      "model": {
+        "skel": "/assets/models/op-28/char_4013_kjera.skel",
+        "atlas": "/assets/models/op-28/char_4013_kjera.atlas"
+      }
+    },
+    {
+      "id": "op-29",
+      "name": "菲亚梅塔",
+      "tier": 4,
+      "role": "狙击",
+      "bonds": [
+        "拉特兰"
+      ],
+      "image": "/assets/op-29.png",
+      "hp": 1649,
+      "atk": 565,
+      "def": 118,
+      "interval": 0.95,
+      "range": 3.2,
+      "block": 0,
+      "ground": false,
+      "sourcePage": "https://prts.wiki/w/%E8%8F%B2%E4%BA%9A%E6%A2%85%E5%A1%94",
+      "portrait": "/assets/op-29-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_300_phenxi/meta.json",
+      "model": {
+        "skel": "/assets/models/op-29/char_300_phenxi.skel",
+        "atlas": "/assets/models/op-29/char_300_phenxi.atlas"
+      }
+    },
+    {
+      "id": "op-30",
+      "name": "初雪",
+      "tier": 4,
+      "role": "辅助",
+      "bonds": [
+        "谢拉格",
+        "助力"
+      ],
+      "image": "/assets/op-30.png",
+      "hp": 1884,
+      "atk": 440,
+      "def": 157,
+      "interval": 1.25,
+      "range": 2.8,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "slow": true,
+      "sourcePage": "https://prts.wiki/w/%E5%88%9D%E9%9B%AA",
+      "portrait": "/assets/op-30-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_174_slbell/meta.json",
+      "model": {
+        "skel": "/assets/models/op-30/char_174_slbell.skel",
+        "atlas": "/assets/models/op-30/char_174_slbell.atlas"
+      }
+    },
+    {
+      "id": "op-31",
+      "name": "森蚺",
+      "tier": 4,
+      "role": "重装",
+      "bonds": [
+        "萨尔贡"
+      ],
+      "image": "/assets/op-31.png",
+      "hp": 4396,
+      "atk": 408,
+      "def": 644,
+      "interval": 1.4,
+      "range": 1.2,
+      "block": 3,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E6%A3%AE%E8%9A%BA",
+      "portrait": "/assets/op-31-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_416_zumama/meta.json",
+      "model": {
+        "skel": "/assets/models/op-31/char_416_zumama.skel",
+        "atlas": "/assets/models/op-31/char_416_zumama.atlas"
+      }
+    },
+    {
+      "id": "op-32",
+      "name": "风笛",
+      "tier": 4,
+      "role": "先锋",
+      "bonds": [
+        "维多利亚",
+        "远见",
+        "不屈"
+      ],
+      "image": "/assets/op-32.png",
+      "hp": 2434,
+      "atk": 518,
+      "def": 251,
+      "interval": 1.05,
+      "range": 1.3,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E9%A3%8E%E7%AC%9B",
+      "portrait": "/assets/op-32-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_222_bpipe/meta.json",
+      "model": {
+        "skel": "/assets/models/op-32/char_222_bpipe.skel",
+        "atlas": "/assets/models/op-32/char_222_bpipe.atlas"
+      }
+    },
+    {
+      "id": "op-33",
+      "name": "华法琳",
+      "tier": 4,
+      "role": "医疗",
+      "bonds": [
+        "奇迹"
+      ],
+      "image": "/assets/op-33.png",
+      "hp": 1727,
+      "atk": 440,
+      "def": 133,
+      "interval": 1.4,
+      "range": 3.3,
+      "block": 0,
+      "ground": false,
+      "heal": true,
+      "sourcePage": "https://prts.wiki/w/%E5%8D%8E%E6%B3%95%E7%90%B3",
+      "portrait": "/assets/op-33-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_171_bldsk/meta.json",
+      "model": {
+        "skel": "/assets/models/op-33/char_171_bldsk.skel",
+        "atlas": "/assets/models/op-33/char_171_bldsk.atlas"
+      }
+    },
+    {
+      "id": "op-34",
+      "name": "灵知",
+      "tier": 4,
+      "role": "辅助",
+      "bonds": [
+        "谢拉格",
+        "灵巧"
+      ],
+      "image": "/assets/op-34.png",
+      "hp": 1884,
+      "atk": 440,
+      "def": 157,
+      "interval": 1.25,
+      "range": 2.8,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "slow": true,
+      "sourcePage": "https://prts.wiki/w/%E7%81%B5%E7%9F%A5",
+      "portrait": "/assets/op-34-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_206_gnosis/meta.json",
+      "model": {
+        "skel": "/assets/models/op-34/char_206_gnosis.skel",
+        "atlas": "/assets/models/op-34/char_206_gnosis.atlas"
+      }
+    },
+    {
+      "id": "op-35",
+      "name": "煌",
+      "tier": 4,
+      "role": "近卫",
+      "bonds": [
+        "炎",
+        "维多利亚"
+      ],
+      "image": "/assets/op-35.png",
+      "hp": 3062,
+      "atk": 707,
+      "def": 298,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E7%85%8C",
+      "portrait": "/assets/op-35-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_017_huang/meta.json",
+      "model": {
+        "skel": "/assets/models/op-35/char_017_huang.skel",
+        "atlas": "/assets/models/op-35/char_017_huang.atlas"
+      }
+    },
+    {
+      "id": "op-36",
+      "name": "圣约送葬人",
+      "tier": 5,
+      "role": "近卫",
+      "bonds": [
+        "拉特兰",
+        "远见"
+      ],
+      "image": "/assets/op-36.png",
+      "hp": 3432,
+      "atk": 792,
+      "def": 334,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E5%9C%A3%E7%BA%A6%E9%80%81%E8%91%AC%E4%BA%BA",
+      "portrait": "/assets/op-36-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_1032_excu2/meta.json",
+      "model": {
+        "skel": "/assets/models/op-36/char_1032_excu2.skel",
+        "atlas": "/assets/models/op-36/char_1032_excu2.atlas"
+      }
+    },
+    {
+      "id": "op-37",
+      "name": "异客",
+      "tier": 5,
+      "role": "术师",
+      "bonds": [
+        "萨尔贡",
+        "精准"
+      ],
+      "image": "/assets/op-37.png",
+      "hp": 2024,
+      "atk": 774,
+      "def": 141,
+      "interval": 1.45,
+      "range": 2.9,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "sourcePage": "https://prts.wiki/w/%E5%BC%82%E5%AE%A2",
+      "portrait": "/assets/op-37-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_472_pasngr/meta.json",
+      "model": {
+        "skel": "/assets/models/op-37/char_472_pasngr.skel",
+        "atlas": "/assets/models/op-37/char_472_pasngr.atlas"
+      }
+    },
+    {
+      "id": "op-38",
+      "name": "左乐",
+      "tier": 5,
+      "role": "近卫",
+      "bonds": [
+        "炎"
+      ],
+      "image": "/assets/op-38.png",
+      "hp": 3432,
+      "atk": 792,
+      "def": 334,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E5%B7%A6%E4%B9%90",
+      "portrait": "/assets/op-38-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4121_zuole/meta.json",
+      "model": {
+        "skel": "/assets/models/op-38/char_4121_zuole.skel",
+        "atlas": "/assets/models/op-38/char_4121_zuole.atlas"
+      }
+    },
+    {
+      "id": "op-39",
+      "name": "乌尔比安",
+      "tier": 5,
+      "role": "近卫",
+      "bonds": [
+        "阿戈尔"
+      ],
+      "image": "/assets/op-39.png",
+      "hp": 3432,
+      "atk": 792,
+      "def": 334,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E4%B9%8C%E5%B0%94%E6%AF%94%E5%AE%89",
+      "portrait": "/assets/op-39-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4145_ulpia/meta.json",
+      "model": {
+        "skel": "/assets/models/op-39/char_4145_ulpia.skel",
+        "atlas": "/assets/models/op-39/char_4145_ulpia.atlas"
+      }
+    },
+    {
+      "id": "op-40",
+      "name": "塞雷娅",
+      "tier": 5,
+      "role": "重装",
+      "bonds": [
+        "坚守"
+      ],
+      "image": "/assets/op-40.png",
+      "hp": 4928,
+      "atk": 458,
+      "def": 722,
+      "interval": 1.4,
+      "range": 1.2,
+      "block": 3,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E5%A1%9E%E9%9B%B7%E5%A8%85",
+      "portrait": "/assets/op-40-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_202_demkni/meta.json",
+      "model": {
+        "skel": "/assets/models/op-40/char_202_demkni.skel",
+        "atlas": "/assets/models/op-40/char_202_demkni.atlas"
+      }
+    },
+    {
+      "id": "op-41",
+      "name": "林",
+      "tier": 5,
+      "role": "术师",
+      "bonds": [
+        "炎",
+        "灵巧"
+      ],
+      "image": "/assets/op-41.png",
+      "hp": 2024,
+      "atk": 774,
+      "def": 141,
+      "interval": 1.45,
+      "range": 2.9,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "sourcePage": "https://prts.wiki/w/%E6%9E%97",
+      "portrait": "/assets/op-41-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4080_lin/meta.json",
+      "model": {
+        "skel": "/assets/models/op-41/char_4080_lin.skel",
+        "atlas": "/assets/models/op-41/char_4080_lin.atlas"
+      }
+    },
+    {
+      "id": "op-42",
+      "name": "银灰",
+      "tier": 5,
+      "role": "近卫",
+      "bonds": [
+        "谢拉格",
+        "投资人",
+        "奇迹"
+      ],
+      "image": "/assets/op-42.png",
+      "hp": 3432,
+      "atk": 792,
+      "def": 334,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E9%93%B6%E7%81%B0",
+      "portrait": "/assets/op-42-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_172_svrash/meta.json",
+      "model": {
+        "skel": "/assets/models/op-42/char_172_svrash.skel",
+        "atlas": "/assets/models/op-42/char_172_svrash.atlas"
+      }
+    },
+    {
+      "id": "op-43",
+      "name": "白面鸮",
+      "tier": 5,
+      "role": "医疗",
+      "bonds": [
+        "助力",
+        "灵巧"
+      ],
+      "image": "/assets/op-43.png",
+      "hp": 1936,
+      "atk": 493,
+      "def": 150,
+      "interval": 1.4,
+      "range": 3.3,
+      "block": 0,
+      "ground": false,
+      "heal": true,
+      "sourcePage": "https://prts.wiki/w/%E7%99%BD%E9%9D%A2%E9%B8%AE",
+      "portrait": "/assets/op-43-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_128_plosis/meta.json",
+      "model": {
+        "skel": "/assets/models/op-43/char_128_plosis.skel",
+        "atlas": "/assets/models/op-43/char_128_plosis.atlas"
+      }
+    },
+    {
+      "id": "op-44",
+      "name": "蕾缪安",
+      "tier": 6,
+      "role": "狙击",
+      "bonds": [
+        "拉特兰",
+        "精准"
+      ],
+      "image": "/assets/op-44.png",
+      "hp": 2048,
+      "atk": 702,
+      "def": 146,
+      "interval": 0.95,
+      "range": 3.2,
+      "block": 0,
+      "ground": false,
+      "sourcePage": "https://prts.wiki/w/%E8%95%BE%E7%BC%AA%E5%AE%89",
+      "portrait": "/assets/op-44-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4193_lemuen/meta.json",
+      "model": {
+        "skel": "/assets/models/op-44/char_4193_lemuen.skel",
+        "atlas": "/assets/models/op-44/char_4193_lemuen.atlas"
+      }
+    },
+    {
+      "id": "op-45",
+      "name": "锏",
+      "tier": 6,
+      "role": "近卫",
+      "bonds": [
+        "谢拉格",
+        "迅捷"
+      ],
+      "image": "/assets/op-45.png",
+      "hp": 3803,
+      "atk": 878,
+      "def": 371,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E9%94%8F",
+      "portrait": "/assets/op-45-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4116_blkkgt/meta.json",
+      "model": {
+        "skel": "/assets/models/op-45/char_4116_blkkgt.skel",
+        "atlas": "/assets/models/op-45/char_4116_blkkgt.atlas"
+      }
+    },
+    {
+      "id": "op-46",
+      "name": "余",
+      "tier": 6,
+      "role": "重装",
+      "bonds": [
+        "炎",
+        "坚守"
+      ],
+      "image": "/assets/op-46.png",
+      "hp": 5460,
+      "atk": 507,
+      "def": 800,
+      "interval": 1.4,
+      "range": 1.2,
+      "block": 3,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E4%BD%99",
+      "portrait": "/assets/op-46-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_2026_yu/meta.json",
+      "model": {
+        "skel": "/assets/models/op-46/char_2026_yu.skel",
+        "atlas": "/assets/models/op-46/char_2026_yu.atlas"
+      }
+    },
+    {
+      "id": "op-47",
+      "name": "浊心斯卡蒂",
+      "tier": 6,
+      "role": "辅助",
+      "bonds": [
+        "阿戈尔"
+      ],
+      "image": "/assets/op-47.png",
+      "hp": 2340,
+      "atk": 546,
+      "def": 195,
+      "interval": 1.25,
+      "range": 2.8,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "slow": true,
+      "sourcePage": "https://prts.wiki/w/%E6%B5%8A%E5%BF%83%E6%96%AF%E5%8D%A1%E8%92%82",
+      "portrait": "/assets/op-47-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_1012_skadi2/meta.json",
+      "model": {
+        "skel": "/assets/models/op-47/char_1012_skadi2.skel",
+        "atlas": "/assets/models/op-47/char_1012_skadi2.atlas"
+      }
+    },
+    {
+      "id": "op-48",
+      "name": "佩佩",
+      "tier": 6,
+      "role": "近卫",
+      "bonds": [
+        "萨尔贡",
+        "不屈"
+      ],
+      "image": "/assets/op-48.png",
+      "hp": 3803,
+      "atk": 878,
+      "def": 371,
+      "interval": 1.15,
+      "range": 1.4,
+      "block": 2,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E4%BD%A9%E4%BD%A9",
+      "portrait": "/assets/op-48-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_4058_pepe/meta.json",
+      "model": {
+        "skel": "/assets/models/op-48/char_4058_pepe.skel",
+        "atlas": "/assets/models/op-48/char_4058_pepe.atlas"
+      }
+    },
+    {
+      "id": "op-49",
+      "name": "澄闪",
+      "tier": 6,
+      "role": "术师",
+      "bonds": [
+        "维多利亚"
+      ],
+      "image": "/assets/op-49.png",
+      "hp": 2243,
+      "atk": 858,
+      "def": 156,
+      "interval": 1.45,
+      "range": 2.9,
+      "block": 0,
+      "ground": false,
+      "arts": true,
+      "sourcePage": "https://prts.wiki/w/%E6%BE%84%E9%97%AA",
+      "portrait": "/assets/op-49-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_377_gdglow/meta.json",
+      "model": {
+        "skel": "/assets/models/op-49/char_377_gdglow.skel",
+        "atlas": "/assets/models/op-49/char_377_gdglow.atlas"
+      }
+    },
+    {
+      "id": "op-50",
+      "name": "泥岩",
+      "tier": 6,
+      "role": "重装",
+      "bonds": [
+        "坚守",
+        "不屈"
+      ],
+      "image": "/assets/op-50.png",
+      "hp": 5460,
+      "atk": 507,
+      "def": 800,
+      "interval": 1.4,
+      "range": 1.2,
+      "block": 3,
+      "ground": true,
+      "sourcePage": "https://prts.wiki/w/%E6%B3%A5%E5%B2%A9",
+      "portrait": "/assets/op-50-portrait.png",
+      "modelSource": "https://torappu.prts.wiki/assets/char_spine/char_311_mudrok/meta.json",
+      "model": {
+        "skel": "/assets/models/op-50/char_311_mudrok.skel",
+        "atlas": "/assets/models/op-50/char_311_mudrok.atlas"
+      }
+    }
+  ],
+  "bonds": [
+    {
+      "id": "bond-0",
+      "name": "炎",
+      "threshold": 3,
+      "core": true,
+      "icon": "/assets/bond-0.png"
+    },
+    {
+      "id": "bond-1",
+      "name": "萨尔贡",
+      "threshold": 3,
+      "core": true,
+      "icon": "/assets/bond-1.png"
+    },
+    {
+      "id": "bond-2",
+      "name": "维多利亚",
+      "threshold": 3,
+      "core": true,
+      "icon": "/assets/bond-2.png"
+    },
+    {
+      "id": "bond-3",
+      "name": "谢拉格",
+      "threshold": 3,
+      "core": true,
+      "icon": "/assets/bond-3.png"
+    },
+    {
+      "id": "bond-4",
+      "name": "拉特兰",
+      "threshold": 3,
+      "core": true,
+      "icon": "/assets/bond-4.png"
+    },
+    {
+      "id": "bond-5",
+      "name": "阿戈尔",
+      "threshold": 3,
+      "core": true,
+      "icon": "/assets/bond-5.png"
+    },
+    {
+      "id": "bond-6",
+      "name": "投资人",
+      "threshold": 3,
+      "core": false,
+      "icon": "/assets/bond-6.png"
+    },
+    {
+      "id": "bond-7",
+      "name": "调和",
+      "threshold": 1,
+      "core": false,
+      "icon": "/assets/bond-7.png"
+    },
+    {
+      "id": "bond-8",
+      "name": "远见",
+      "threshold": 2,
+      "core": false,
+      "icon": "/assets/bond-8.png"
+    },
+    {
+      "id": "bond-9",
+      "name": "精准",
+      "threshold": 2,
+      "core": false,
+      "icon": "/assets/bond-9.png"
+    },
+    {
+      "id": "bond-10",
+      "name": "坚守",
+      "threshold": 2,
+      "core": false,
+      "icon": "/assets/bond-10.png"
+    },
+    {
+      "id": "bond-11",
+      "name": "突袭",
+      "threshold": 2,
+      "core": false,
+      "icon": "/assets/bond-11.png"
+    },
+    {
+      "id": "bond-12",
+      "name": "奇迹",
+      "threshold": 2,
+      "core": false,
+      "icon": "/assets/bond-12.png"
+    },
+    {
+      "id": "bond-13",
+      "name": "不屈",
+      "threshold": 2,
+      "core": false,
+      "icon": "/assets/bond-13.png"
+    },
+    {
+      "id": "bond-14",
+      "name": "迅捷",
+      "threshold": 2,
+      "core": false,
+      "icon": "/assets/bond-14.png"
+    },
+    {
+      "id": "bond-15",
+      "name": "助力",
+      "threshold": 2,
+      "core": false,
+      "icon": "/assets/bond-15.png"
+    },
+    {
+      "id": "bond-16",
+      "name": "灵巧",
+      "threshold": 2,
+      "core": false,
+      "icon": "/assets/bond-16.png"
+    },
+    {
+      "id": "bond-17",
+      "name": "协防干员",
+      "threshold": 3,
+      "core": false,
+      "icon": "/assets/bond-17.png"
+    }
+  ],
+  "strategies": [
+    {
+      "id": "unity",
+      "name": "众志合一",
+      "owner": "阿米娅",
+      "hp": 30,
+      "description": "激活 2 / 3 / 4 种盟约时，全体攻击与生命 +15% / 30% / 50%。",
+      "image": "/assets/strategy-unity.png"
+    },
+    {
+      "id": "watch",
+      "name": "重点监护",
+      "owner": "华法琳",
+      "hp": 27,
+      "description": "作战开始时，每个不同等阶的一名干员所属盟约增加 2 层。",
+      "image": "/assets/strategy-watch.png"
+    },
+    {
+      "id": "fortress",
+      "name": "坚不可摧",
+      "owner": "歌利亚",
+      "hp": 45,
+      "description": "以 45 点目标生命开始模拟，为阵容成长争取更多回合。",
+      "image": "/assets/strategy-fortress.png"
+    }
+  ],
+  "equipment": [
+    {
+      "id": "gear-0",
+      "name": "精准狙击镜",
+      "image": "/assets/gear-0.png",
+      "cost": 3,
+      "description": "攻击力 +25%"
+    },
+    {
+      "id": "gear-1",
+      "name": "防暴盾",
+      "image": "/assets/gear-1.png",
+      "cost": 3,
+      "description": "生命 +35%，防御 +80"
+    },
+    {
+      "id": "gear-2",
+      "name": "浓缩嗅盐",
+      "image": "/assets/gear-2.png",
+      "cost": 3,
+      "description": "攻击速度 +25%"
+    }
+  ],
+  "enemies": [
+    {
+      "id": "enemy-0",
+      "name": "源石虫",
+      "image": "/assets/enemy-0.png",
+      "sourcePage": "https://prts.wiki/w/%E6%BA%90%E7%9F%B3%E8%99%AB"
+    },
+    {
+      "id": "enemy-1",
+      "name": "士兵",
+      "image": "/assets/enemy-1.png",
+      "sourcePage": "https://prts.wiki/w/%E5%A3%AB%E5%85%B5"
+    },
+    {
+      "id": "enemy-2",
+      "name": "重装防御者",
+      "image": "/assets/enemy-2.png",
+      "sourcePage": "https://prts.wiki/w/%E9%87%8D%E8%A3%85%E9%98%B2%E5%BE%A1%E8%80%85"
+    },
+    {
+      "id": "enemy-3",
+      "name": "萨卡兹百夫长",
+      "image": "/assets/enemy-3.png",
+      "sourcePage": "https://prts.wiki/w/%E8%90%A8%E5%8D%A1%E5%85%B9%E7%99%BE%E5%A4%AB%E9%95%BF"
+    }
+  ],
+  "art": "/assets/amiya-art.png",
+  "sourcePage": "https://prts.wiki/w/%E5%8D%AB%E6%88%8D%E5%8D%8F%E8%AE%AE%EF%BC%9A%E7%9B%9F%E7%BA%A6%2FPRTS%E7%9B%9F%E7%BA%A6%E8%AE%B0%E5%BD%95",
+  "rulesNote": "干员等阶与盟约归属取自 PRTS；战斗数值、装备效果与部分盟约技能为网页原型简化实现。"
+}

@@ -1,0 +1,16 @@
+/node_modules/
+research/**
+!research/apk/
+!research/apk/full/
+!research/apk/full/licenses/
+!research/apk/full/licenses/*.txt
+logs/
+.env
+.env.*
+!.env.example
+*.log
+dist/*
+!dist/卫戍协议-win32-x64/
+!dist/卫戍协议-0.1.1-win32-x64.zip
+!dist/卫戍协议-云服务器部署包.zip
+!dist/发布文件校验.json

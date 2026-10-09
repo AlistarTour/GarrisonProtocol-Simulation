@@ -1,0 +1,55 @@
+{
+  "generatedAtUtc": "2026-10-09T12:49:12.5089456Z",
+  "app": "0.1.1",
+  "protocol": 1,
+  "serverUrl": "http://103.236.57.91:3001/",
+  "files": [
+    {
+      "path": "dist/卫戍协议-0.1.1-win32-x64.zip",
+      "bytes": 436400368,
+      "sha256": "959553788d0c4ae77506d7f01776ce8d73b615c1f105d0e07012faa4a4d3ed9a"
+    },
+    {
+      "path": "dist/卫戍协议-云服务器部署包.zip",
+      "bytes": 262794696,
+      "sha256": "11a96aa7f6855a644c37aa260d15d994543b4fd7d2ec48e2063eaba98c2719ca"
+    },
+    {
+      "path": "dist/卫戍协议-win32-x64/卫戍协议.exe",
+      "bytes": 246302208,
+      "sha256": "afd13d6615e5f29dcef64e67079e8ff51b434965e2965bb13dbebea114289eb8"
+    },
+    {
+      "path": "dist/卫戍协议-win32-x64/服务器配置.json",
+      "bytes": 69,
+      "sha256": "291d74e415add20a5c4d1b8aa2dae1e875e56cca7dfc1281b997f7934d47aec2"
+    }
+  ],
+  "checks": {
+    "portableFileCount": 10272,
+    "cloudFileCount": 5791,
+    "criticalArchiveFilesMatch": [
+      "卫戍协议.exe",
+      "服务器配置.json",
+      "README.md",
+      "licenses/NOTICE.txt",
+      "resources/app/README.md",
+      "resources/app/docs/开发文档.md",
+      "resources/app/docs/联机协议.md",
+      "resources/app/deployment/云服务器部署说明.md",
+      "resources/app/node_modules/ws/package.json",
+      "resources/app/server/index.js",
+      "resources/app/public/js/net.js",
+      "resources/app/electron-main.cjs"
+    ],
+    "packagedRuntimeHealthAndFiveRoutesPassed": true,
+    "sourceSmokeTestsPassed": 2,
+    "sourceAndPortableDocumentLinksChecked": 180,
+    "publicHealthAtPublication": {
+      "checkedAtUtc": "2026-10-09T12:50:58.9887731Z",
+      "status": 200,
+      "app": "0.1.1",
+      "protocol": 1
+    }
+  }
+}
